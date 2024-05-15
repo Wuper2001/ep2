@@ -1,0 +1,78 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen en el Centro con Fondo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('imgs/panes.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .image-container {
+            margin-top: 20px; /* Ajusta el margen superior según lo necesites */
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .text-container {
+            font-family: 'Brush Script MT', cursive; /* Utiliza la fuente Brush Script MT */
+            font-size: 80px; /* Ajusta el tamaño del texto según lo necesites */
+            margin-top: 10px; /* Ajusta el margen superior según lo necesites */
+            color: #005349; /* Cambia el color del texto a jade */
+        }
+        .email-text {
+            font-family: 'Britannic Bold', sans-serif; /* Utiliza la fuente Britannic Bold */
+            font-size: 50px; /* Ajusta el tamaño del texto según lo necesites */
+            margin-top: 0px; /* Sin margen superior para acercar más los textos */
+            font-weight: bold; /* Establece el texto en negrita */
+        }
+        .email-prefix {
+            color: black; /* Cambia el color del texto 'Email:' a negro */
+        }
+        .email-address {
+            color: #061838; /* Cambia el color del texto 'marketing@donmamino.com' a azul oscuro fuerte */
+        }
+        .delivery-text,
+        .phone-text {
+            font-family: 'Britannic Bold', sans-serif; /* Utiliza la misma fuente */
+            font-size: 40px; /* Ajusta el tamaño del texto según lo necesites */
+            margin-top: 0px; /* Sin margen superior para acercar más los textos */
+            color: #black; /* Cambia el color del texto a azul oscuro fuerte */
+            font-weight: bold; /* Establece el texto en negrita */
+        }
+    </style>
+</head>
+<body>
+
+<div class="image-container">
+    <img src="imgs/don mamimo.png" alt="Imagen de Don Mamimo">
+</div>
+
+<div class="text-container">
+    <p>El Primer Autoservicio del Pan</p>
+</div>
+
+<div class="email-text">
+    <p><span class="email-prefix">Email:</span> <span class="email-address">marketing@donmamino.com</span></p>
+</div>
+
+<div class="delivery-text">
+    <p>Delivery - Central de pedidos</p>
+</div>
+
+<div class="phone-text">
+    <p>Telf. 316-1016</p>
+</div>
+
+</body>
+</html>
